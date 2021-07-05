@@ -1,0 +1,41 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background: #eef2f3;
+}
+img {
+    width: 170px;
+    height: 240px;
+    display: block;
+    cursor: pointer;
+}
+h4 {
+    padding-left: 10px;
+    cursor: pointer;
+
+    &:hover {
+        color: #1010af;
+    }
+}
+p {
+    padding-left: 10px;
+    font-size: 14px;
+}
+
+.books-category {
+    display: grid;
+    grid-template-columns: repeat(6, 170px);
+    grid-column-gap: 48px;
+    grid-row-gap: 30px;
+    justify-content: center;
+    margin: 100px 50px auto;
+}
+.book {
+    max-width: auto;
+    height: 450px;
+    background: white;
+    border-radius: 15px;
+}
+.book p:nth-child(3) {
+    line-height: 0.1;
+    color: #7c7a7a;
+}
